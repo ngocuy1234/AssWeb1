@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+
+.padding-container{
+    padding: 0px 80px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.title{
+    border-left: 4px solid var(--danger) ;
+    color: var(--dark);
+    padding: 10px 20px;
+    background-color: #F3F3F3;
+    border-bottom: 2px solid var(--danger);
+    text-transform: uppercase;
+}
+
+/* COMOMOM */
+.header-top{
+    background-color: #F3F3F3;
+    height: 45px;
+}
+
+.header-top-form{
+    /* float: right; */
+    line-height: 45px;
+    text-align: right;
+}
+
+.header-top-form input{
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #777;
+}
+
+.header-top-form button{
+    width: 30px;
+    height: 30px;
+    background-color: var(--danger);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+}
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.header-menu{
+    background-color: var(--danger);
+    height: 45px;
+}
+
+.header-menu-list{
+    display: flex;
+    justify-content: start;
+    line-height: 45px;
+    list-style-type: none;
+}
+
+.header-menu-list a{
+    padding: 10px;
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.header-menu-list a:hover{
+    background-color: var(--white);
+    color: var(--danger);
+    border-radius: 5px;
+}
+
+.header-content marquee{
+    padding: 15px 0px;
+}
+
+.footer-info{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid var(--danger);
+    padding: 30px 80px;
+    margin-top: 30px;
+}
+
+.footer h3{
+    color: var(--info);
+}
+
+.footer p{
+    color: var(--gray-dark);
+}
