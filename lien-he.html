@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/Css/base.css">
-    <link rel="stylesheet" href="assets/Css/Contact.css">
+    <link rel="stylesheet" href="assets/Css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,14 +29,21 @@
             </div>
             <div class="header-menu padding-container">
                 <ul class="header-menu-list">
-                    <li><a href="Home.html">Trang chủ </a></li>
-                    <li><a href="">Văn bản</a></li>
+                    <li><a href="trang-chu.html">Trang chủ </a></li>
+                    <li><a href="gioi-thieu.html">Giới thiệu</a></li>
                     <li><a href="">Thời khoá biểu</a></li>
-                    <li><a href="">Tin tức sự kiện</a></li>
-                    <li><a href="">Thi Đua</a></li>
-                    <li><a href="">Hoạt Động Chuyên Môn</a></li>
-                    <li><a href="">Tài Nguyên </a></li>
-                    <li><a href="Contact.html">Liên hệ</a></li>
+                    <li class="header-menu-sub-li">
+                        <a class="menu-dropdown">
+                            Tin tức sự kiện
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="header-menu-sub">
+                            <a href="#">Hoạt động nhà trường</a>
+                            <a href="#">Tin nổi bật</a>
+                        </div>
+                    </li>
+                    <li><a href="ky-uc-hoc-tro.html">Kí ức học trò</a></li>
+                    <li><a href="lien-he.html">Liên hệ</a></li>
                 </ul>
             </div>
         </header>
@@ -65,10 +72,10 @@
                     <form action="form-contact">
                         <input type="text" class="input-contact" placeholder="Tên của bạn ">
                         <div class="form-grid-input">
-                            <input type="text"  class="input-contact" placeholder="Email của bạn">
-                            <input type="text"  class="input-contact" placeholder="Số điện thoại của bạn">
+                            <input type="text" class="input-contact" placeholder="Email của bạn">
+                            <input type="text" class="input-contact" placeholder="Số điện thoại của bạn">
                         </div>
-                        <textarea  class="input-contact-textarea" placeholder="Nội dung" name=""></textarea>
+                        <textarea class="input-contact-textarea" placeholder="Nội dung" name=""></textarea>
                         <button class="btn-submit-contact">Gửi cho chúng tôi</button>
                     </form>
                 </div>

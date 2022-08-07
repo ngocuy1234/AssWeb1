@@ -1,0 +1,51 @@
+.content-main{
+    display: grid;
+    grid-template-columns:65%  35%;
+    grid-gap: 30px ;
+}
+
+.content img{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+    margin: 15px 0px;
+}
+
+.banner-sub{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:15px ;
+}
+
+.new-list{
+    margin: 20px 0px;
+    border: 1px solid #666;
+}
+
+.new-item{
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.new-item h4{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.new-item p{
+    font-size: 14px;
+}
+
+.cotent-title{
+    font-size: 18px;
+}
+
+.content-date{
+    font-size: 13px;
+    margin-top: 10px;
+}
